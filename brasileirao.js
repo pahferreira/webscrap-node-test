@@ -22,11 +22,46 @@ request(
         .find("tbody")
         .children()
         .each((i, infos) => {
-          const points = $(infos)
-            .find(".tabela-pontos-ponto")
-            .text();
-          teamsTable[i].points = points;
-          console.log($(infos).html());
+          //console.log($(infos).html());
+          let matches = {};
+          let goals = {};
+          $(infos)
+            .children()
+            .each((index, el) => {
+              switch (index) {
+                case 0:
+                  teamsTable[i].points = parseInt($(el).text());
+                  break;
+                case 1:
+                  matches.played = parseInt($(el).text());
+                  break;
+                case 2:
+                  matches.won = parseInt($(el).text());
+                  break;
+                case 3:
+                  matches.drawn = parseInt($(el).text());
+                  break;
+                case 4:
+                  matches.lose = parseInt($(el).text());
+                  break;
+                case 5:
+                  goals.scored = parseInt($(el).text());
+                  break;
+                case 6:
+                  goals.conceded = parseInt($(el).text());
+                  break;
+                case 7:
+                  goals.difference = parseInt($(el).text());
+                  break;
+                case 8:
+                  teamsTable[i].efficiency = parseFloat($(el).text());
+
+                default:
+                  break;
+              }
+            });
+          teamsTable[i].matches = matches;
+          teamsTable[i].goals = goals;
         });
       console.log(teamsTable);
     }
