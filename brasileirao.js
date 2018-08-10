@@ -1,6 +1,6 @@
 const cheerio = require("cheerio");
 const request = require("request");
-const fs = require("fs");
+const wjs = require("write-json-file");
 
 request(
   "https://globoesporte.globo.com/futebol/brasileirao-serie-a/",
@@ -62,8 +62,23 @@ request(
             });
           teamsTable[i].matches = matches;
           teamsTable[i].goals = goals;
+          let lastMatches = [];
+          $(infos)
+            .find(".tabela-pontos-ultimos-jogos")
+            .children()
+            .each((index, game) => {
+              let result = $(game)
+                .attr("class")
+                .split(" ")[2];
+              result = result[result.length - 1];
+              lastMatches.push(result.toUpperCase());
+            });
+          teamsTable[i].lastMatches = lastMatches;
         });
       console.log(teamsTable);
+      wjs("./results/brasileirao.json", teamsTable)
+        .then(() => console.log("Done"))
+        .catch(err => console.log(err));
     }
   }
 );

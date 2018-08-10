@@ -1,0 +1,482 @@
+[
+	{
+		"rank": 1,
+		"name": "São Paulo",
+		"points": 35,
+		"efficiency": 68.6,
+		"matches": {
+			"played": 17,
+			"won": 10,
+			"drawn": 5,
+			"lose": 2
+		},
+		"goals": {
+			"scored": 27,
+			"conceded": 15,
+			"difference": 12
+		},
+		"lastMatches": [
+			"V",
+			"V",
+			"D",
+			"V",
+			"V"
+		]
+	},
+	{
+		"rank": 2,
+		"name": "Flamengo",
+		"points": 34,
+		"efficiency": 66.7,
+		"matches": {
+			"played": 17,
+			"won": 10,
+			"drawn": 4,
+			"lose": 3
+		},
+		"goals": {
+			"scored": 28,
+			"conceded": 12,
+			"difference": 16
+		},
+		"lastMatches": [
+			"D",
+			"V",
+			"E",
+			"V",
+			"D"
+		]
+	},
+	{
+		"rank": 3,
+		"name": "Internacional",
+		"points": 32,
+		"efficiency": 62.7,
+		"matches": {
+			"played": 17,
+			"won": 9,
+			"drawn": 5,
+			"lose": 3
+		},
+		"goals": {
+			"scored": 23,
+			"conceded": 12,
+			"difference": 11
+		},
+		"lastMatches": [
+			"E",
+			"V",
+			"D",
+			"V",
+			"V"
+		]
+	},
+	{
+		"rank": 4,
+		"name": "Grêmio",
+		"points": 30,
+		"efficiency": 58.8,
+		"matches": {
+			"played": 17,
+			"won": 8,
+			"drawn": 6,
+			"lose": 3
+		},
+		"goals": {
+			"scored": 18,
+			"conceded": 8,
+			"difference": 10
+		},
+		"lastMatches": [
+			"V",
+			"D",
+			"V",
+			"E",
+			"V"
+		]
+	},
+	{
+		"rank": 5,
+		"name": "Atlético-MG",
+		"points": 27,
+		"efficiency": 52.9,
+		"matches": {
+			"played": 17,
+			"won": 8,
+			"drawn": 3,
+			"lose": 6
+		},
+		"goals": {
+			"scored": 30,
+			"conceded": 25,
+			"difference": 5
+		},
+		"lastMatches": [
+			"D",
+			"D",
+			"V",
+			"E",
+			"D"
+		]
+	},
+	{
+		"rank": 6,
+		"name": "Palmeiras",
+		"points": 27,
+		"efficiency": 52.9,
+		"matches": {
+			"played": 17,
+			"won": 7,
+			"drawn": 6,
+			"lose": 4
+		},
+		"goals": {
+			"scored": 25,
+			"conceded": 15,
+			"difference": 10
+		},
+		"lastMatches": [
+			"E",
+			"V",
+			"D",
+			"V",
+			"E"
+		]
+	},
+	{
+		"rank": 7,
+		"name": "Corinthians",
+		"points": 26,
+		"efficiency": 51,
+		"matches": {
+			"played": 17,
+			"won": 7,
+			"drawn": 5,
+			"lose": 5
+		},
+		"goals": {
+			"scored": 21,
+			"conceded": 13,
+			"difference": 8
+		},
+		"lastMatches": [
+			"V",
+			"D",
+			"V",
+			"V",
+			"E"
+		]
+	},
+	{
+		"rank": 8,
+		"name": "Cruzeiro",
+		"points": 25,
+		"efficiency": 49,
+		"matches": {
+			"played": 17,
+			"won": 7,
+			"drawn": 4,
+			"lose": 6
+		},
+		"goals": {
+			"scored": 14,
+			"conceded": 14,
+			"difference": 0
+		},
+		"lastMatches": [
+			"V",
+			"V",
+			"D",
+			"D",
+			"E"
+		]
+	},
+	{
+		"rank": 9,
+		"name": "Fluminense",
+		"points": 22,
+		"efficiency": 43.1,
+		"matches": {
+			"played": 17,
+			"won": 6,
+			"drawn": 4,
+			"lose": 7
+		},
+		"goals": {
+			"scored": 19,
+			"conceded": 21,
+			"difference": -2
+		},
+		"lastMatches": [
+			"E",
+			"V",
+			"V",
+			"D",
+			"E"
+		]
+	},
+	{
+		"rank": 10,
+		"name": "América-MG",
+		"points": 21,
+		"efficiency": 41.2,
+		"matches": {
+			"played": 17,
+			"won": 6,
+			"drawn": 3,
+			"lose": 8
+		},
+		"goals": {
+			"scored": 18,
+			"conceded": 23,
+			"difference": -5
+		},
+		"lastMatches": [
+			"D",
+			"D",
+			"V",
+			"V",
+			"E"
+		]
+	},
+	{
+		"rank": 11,
+		"name": "Botafogo",
+		"points": 21,
+		"efficiency": 41.2,
+		"matches": {
+			"played": 17,
+			"won": 5,
+			"drawn": 6,
+			"lose": 6
+		},
+		"goals": {
+			"scored": 17,
+			"conceded": 21,
+			"difference": -4
+		},
+		"lastMatches": [
+			"D",
+			"D",
+			"V",
+			"D",
+			"E"
+		]
+	},
+	{
+		"rank": 12,
+		"name": "Sport",
+		"points": 20,
+		"efficiency": 39.2,
+		"matches": {
+			"played": 17,
+			"won": 5,
+			"drawn": 5,
+			"lose": 7
+		},
+		"goals": {
+			"scored": 18,
+			"conceded": 24,
+			"difference": -6
+		},
+		"lastMatches": [
+			"D",
+			"D",
+			"D",
+			"D",
+			"E"
+		]
+	},
+	{
+		"rank": 13,
+		"name": "Vasco",
+		"points": 19,
+		"efficiency": 42.2,
+		"matches": {
+			"played": 15,
+			"won": 5,
+			"drawn": 4,
+			"lose": 6
+		},
+		"goals": {
+			"scored": 21,
+			"conceded": 25,
+			"difference": -4
+		},
+		"lastMatches": [
+			"D",
+			"E",
+			"V",
+			"D",
+			"D"
+		]
+	},
+	{
+		"rank": 14,
+		"name": "Vitória",
+		"points": 19,
+		"efficiency": 37.3,
+		"matches": {
+			"played": 17,
+			"won": 5,
+			"drawn": 4,
+			"lose": 8
+		},
+		"goals": {
+			"scored": 20,
+			"conceded": 32,
+			"difference": -12
+		},
+		"lastMatches": [
+			"V",
+			"D",
+			"V",
+			"D",
+			"E"
+		]
+	},
+	{
+		"rank": 15,
+		"name": "Santos",
+		"points": 18,
+		"efficiency": 35.3,
+		"matches": {
+			"played": 17,
+			"won": 4,
+			"drawn": 6,
+			"lose": 7
+		},
+		"goals": {
+			"scored": 17,
+			"conceded": 20,
+			"difference": -3
+		},
+		"lastMatches": [
+			"E",
+			"E",
+			"D",
+			"E",
+			"E"
+		]
+	},
+	{
+		"rank": 16,
+		"name": "Bahia",
+		"points": 18,
+		"efficiency": 37.5,
+		"matches": {
+			"played": 16,
+			"won": 4,
+			"drawn": 6,
+			"lose": 6
+		},
+		"goals": {
+			"scored": 18,
+			"conceded": 22,
+			"difference": -4
+		},
+		"lastMatches": [
+			"V",
+			"E",
+			"V",
+			"E",
+			"E"
+		]
+	},
+	{
+		"rank": 17,
+		"name": "Chapecoense",
+		"points": 18,
+		"efficiency": 35.3,
+		"matches": {
+			"played": 17,
+			"won": 3,
+			"drawn": 9,
+			"lose": 5
+		},
+		"goals": {
+			"scored": 17,
+			"conceded": 23,
+			"difference": -6
+		},
+		"lastMatches": [
+			"E",
+			"E",
+			"D",
+			"E",
+			"E"
+		]
+	},
+	{
+		"rank": 18,
+		"name": "Ceará",
+		"points": 15,
+		"efficiency": 29.4,
+		"matches": {
+			"played": 17,
+			"won": 3,
+			"drawn": 6,
+			"lose": 8
+		},
+		"goals": {
+			"scored": 11,
+			"conceded": 20,
+			"difference": -9
+		},
+		"lastMatches": [
+			"V",
+			"D",
+			"V",
+			"V",
+			"E"
+		]
+	},
+	{
+		"rank": 19,
+		"name": "Atlético-PR",
+		"points": 14,
+		"efficiency": 29.2,
+		"matches": {
+			"played": 16,
+			"won": 3,
+			"drawn": 5,
+			"lose": 8
+		},
+		"goals": {
+			"scored": 17,
+			"conceded": 19,
+			"difference": -2
+		},
+		"lastMatches": [
+			"D",
+			"E",
+			"D",
+			"V",
+			"E"
+		]
+	},
+	{
+		"rank": 20,
+		"name": "Paraná",
+		"points": 13,
+		"efficiency": 25.5,
+		"matches": {
+			"played": 17,
+			"won": 3,
+			"drawn": 4,
+			"lose": 10
+		},
+		"goals": {
+			"scored": 8,
+			"conceded": 23,
+			"difference": -15
+		},
+		"lastMatches": [
+			"D",
+			"V",
+			"D",
+			"D",
+			"D"
+		]
+	}
+]
