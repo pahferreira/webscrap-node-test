@@ -1,3 +1,3 @@
-# Webscrap with Node Class
+# Webscraping
 
-Repository to test wescrap using cheerio and request packages.
+Repository to study webscraping.
