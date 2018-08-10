@@ -1,3 +1,3 @@
 # Webscraping
 
-Repository to study webscraping.
+Repository to study webscraping with nodejs.
