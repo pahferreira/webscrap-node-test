@@ -1,7 +1,7 @@
 const cheerio = require("cheerio");
 const request = require("request");
 const fs = require("fs");
-const writeSteam = fs.createWriteStream("test.csv");
+const writeSteam = fs.createWriteStream("./results/test.csv");
 
 request("http://codedemos.com/sampleblog/", (err, res, html) => {
   if (!err && res.statusCode == 200) {
